@@ -4,6 +4,7 @@ using System.Linq;
 
 namespace card_dealer
 {
+    // Represents a deck of cards
     public class Deck
     {
         private IList<Card> cards = new List<Card>();
