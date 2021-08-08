@@ -6,7 +6,7 @@ namespace card_dealer
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Dealing cards");
+            Console.WriteLine("*** Dealing cards ***");
 
             var dealer = new Deck();
             dealer.Deal(3);
