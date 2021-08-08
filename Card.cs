@@ -14,7 +14,7 @@ namespace card_dealer
 
         public override string ToString()
         {
-            return $"{Suit}{Value}";            
+            return $"{Suit} {Value}";            
         }
     }
  }
